@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 try
 {
     $temp = "$ENV:SystemRoot\Temp"
-    $baseUrl = "https://raw.github.com/cloudbase/windows-openstack-imaging-tools/master"
+    $baseUrl = "https://github.com/tavedroid/windows-openstack-imaging-tools/blob/master"
 
     # Put the wallpaper in place
     $wallpaper_dir = "$ENV:SystemRoot\web\Wallpaper\Cloudbase"
